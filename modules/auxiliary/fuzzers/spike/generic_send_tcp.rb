@@ -23,6 +23,7 @@ class Metasploit3 < Msf::Auxiliary
 			'Name'           => 'Generic send TCP',
 			'Description'    => %q{
 				This module uses a SPIKE file to fuzz a TCP server.
+                It requires the 'rspike' gem.
 			},
 			'Author'         => [ 'dougsko' ],
 			'License'        => MSF_LICENSE,

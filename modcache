@@ -449,6 +449,7 @@
 /home/doug/bin/msf3/modules/auxiliary/scanner/http/barracuda_directory_traversal.rb=1289927437
 /home/doug/bin/msf3/modules/auxiliary/dos/windows/browser/ms09_065_eot_integer.rb=1274169719
 /home/doug/bin/msf3/modules/auxiliary/scanner/ftp/anonymous.rb=1282860402
+/home/doug/.msf3/modules/auxiliary/dos/dopewars/dopewars.rb=1289944212
 /home/doug/bin/msf3/modules/payloads/stagers/windows/x64/reverse_tcp.rb=1280776604
 /home/doug/bin/msf3/modules/auxiliary/sqli/oracle/dbms_export_extension.rb=1289927437
 /home/doug/bin/msf3/modules/auxiliary/sqli/oracle/droptable_trigger.rb=1279183091
@@ -909,6 +910,7 @@
 /home/doug/bin/msf3/modules/auxiliary/spoof/dns/compare_results.rb=1280775350
 /home/doug/bin/msf3/modules/payloads/singles/linux/mipsbe/shell_reverse_tcp.rb=1280776483
 /home/doug/bin/msf3/modules/exploits/windows/driver/netgear_wg111_beacon.rb=1280776208
+/home/doug/.msf3/modules/auxiliary/fuzzers/spike/generic_send_tcp.rb=1290152236
 /home/doug/bin/msf3/modules/payloads/singles/linux/x86/metsvc_bind_tcp.rb=1280776483
 /home/doug/bin/msf3/modules/exploits/osx/browser/safari_metadata_archive.rb=1289927438
 /home/doug/bin/msf3/modules/auxiliary/admin/mssql/mssql_sql.rb=1280775610
@@ -1897,8 +1899,8 @@ FileNames=/home/doug/bin/msf3/modules/auxiliary/dos/cisco/ios_http_percentpercen
 Type=auxiliary
 
 [auxiliary/dos/dopewars/dopewars]
-FilePaths=/home/doug/bin/msf3/modules
-FileNames=/home/doug/bin/msf3/modules/auxiliary/dos/dopewars/dopewars.rb
+FilePaths=/home/doug/.msf3/modules
+FileNames=/home/doug/.msf3/modules/auxiliary/dos/dopewars/dopewars.rb
 Type=auxiliary
 
 [auxiliary/dos/freebsd/nfsd/nfsd_mount]
@@ -2302,8 +2304,8 @@ FileNames=/home/doug/bin/msf3/modules/auxiliary/fuzzers/smtp/smtp_fuzzer.rb
 Type=auxiliary
 
 [auxiliary/fuzzers/spike/generic_send_tcp]
-FilePaths=/home/doug/bin/msf3/modules
-FileNames=/home/doug/bin/msf3/modules/auxiliary/fuzzers/spike/generic_send_tcp.rb
+FilePaths=/home/doug/.msf3/modules
+FileNames=/home/doug/.msf3/modules/auxiliary/fuzzers/spike/generic_send_tcp.rb
 Type=auxiliary
 
 [auxiliary/fuzzers/ssh/ssh_kexinit_corrupt]
