@@ -45,21 +45,17 @@ class Metasploit3 < Msf::Auxiliary
         end
     end
 
-    def send_pkt(pkt)
-        begin
-            sock.put(pkt)
-            puts sock.get
-        rescue
-            sleep 0.1
-        end
-    end
-
 	def run
         rspike = RSpike.new
         rspike.generate(datastore["SPIKEFILE"]) do |so|
             print_status "Fuzzing variables #{so.fuzzvarnum.to_s}:#{so.fuzzstrnum.to_s}"
             make_connection
-            send_pkt(so.string)
+            begin
+                sock.put(so.string)
+                puts sock.get
+            rescue
+                sleep 0.1
+            end
             disconnect
         end
     end
