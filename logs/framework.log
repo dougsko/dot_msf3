@@ -35,3 +35,17 @@
 [11/18/2010 02:54:32] [i(0)] core: java/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder generic/none (size is 4911)
 [11/18/2010 02:55:06] [i(0)] core: java/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder generic/none (size is 4911)
 [11/18/2010 02:55:06] [e(0)] rex: Failed to find handler for resource: /favicon.ico
+[01/06/2011 17:22:05] [e(0)] core: /home/doug/.msf3/modules/auxiliary/fuzzers/spike/send_wifi.rb: MissingSourceFile /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rspike
+[01/06/2011 17:22:05] [e(0)] core: /home/doug/.msf3/modules/auxiliary/fuzzers/spike/generic_send_tcp.rb: MissingSourceFile /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rspike
+[01/06/2011 17:22:05] [w(0)] core: The module linux/games/netris is ambiguous with linux/games/netris.
+[01/06/2011 17:22:05] [w(0)] core: The module linux/games/netris is ambiguous with linux/games/netris.
+[01/06/2011 17:22:05] [e(0)] core: Exploit failed (multi/handler): A payload has not been selected.
+[01/06/2011 17:23:20] [e(0)] core: /home/doug/.msf3/modules/auxiliary/fuzzers/spike/send_wifi.rb: MissingSourceFile /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rspike
+[01/06/2011 17:23:20] [e(0)] core: /home/doug/.msf3/modules/auxiliary/fuzzers/spike/generic_send_tcp.rb: MissingSourceFile /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rspike
+[01/06/2011 17:23:20] [w(0)] core: The module linux/games/netris is ambiguous with linux/games/netris.
+[01/06/2011 17:23:20] [w(0)] core: The module linux/games/netris is ambiguous with linux/games/netris.
+[01/06/2011 17:23:28] [e(0)] core: /home/doug/.msf3/modules/auxiliary/fuzzers/spike/send_wifi.rb: MissingSourceFile /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rspike
+[01/06/2011 17:23:28] [e(0)] core: /home/doug/.msf3/modules/auxiliary/fuzzers/spike/generic_send_tcp.rb: MissingSourceFile /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rspike
+[01/06/2011 17:23:28] [w(0)] core: The module linux/games/netris is ambiguous with linux/games/netris.
+[01/06/2011 17:23:28] [w(0)] core: The module linux/games/netris is ambiguous with linux/games/netris.
+[01/06/2011 17:23:28] [i(0)] core: windows/x64/meterpreter/reverse_tcp: Successfully encoded with encoder generic/none (size is 422)
