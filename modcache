@@ -647,7 +647,7 @@
 /home/doug/bin/msf3/modules/exploits/windows/browser/sonicwall_addrouteentry.rb=1280776172
 /home/doug/bin/msf3/modules/exploits/windows/lpd/hummingbird_exceed.rb=1289927438
 /home/doug/bin/msf3/modules/auxiliary/pdf/foxit/authbypass.rb=1274169719
-/home/doug/bin/msf3/modules/auxiliary/admin/mssql/mssql_enum.rb=1280775610
+/home/doug/bin/msf3/modules/auxiliary/admin/mssql/mssql_enum.rb=1290152663
 /home/doug/bin/msf3/modules/payloads/singles/aix/ppc/shell_reverse_tcp.rb=1280776506
 /home/doug/bin/msf3/modules/exploits/windows/misc/asus_dpcproxy_overflow.rb=1280776303
 /home/doug/bin/msf3/modules/exploits/windows/misc/fb_isc_attach_database.rb=1280776303
@@ -821,6 +821,7 @@
 /home/doug/bin/msf3/modules/exploits/windows/http/shoutcast_format.rb=1280775975
 /home/doug/bin/msf3/modules/auxiliary/scanner/http/prev_dir_same_name_file.rb=1274169719
 /home/doug/bin/msf3/modules/auxiliary/admin/http/tomcat_utf8_traversal.rb=1282860402
+/home/doug/bin/msf3/modules/exploits/windows/scada/realwin_10.rb=1290152663
 /home/doug/bin/msf3/modules/payloads/singles/osx/armle/vibrate.rb=1280776524
 /home/doug/bin/msf3/modules/exploits/windows/browser/adobe_jbig2decode.rb=1280776172
 /home/doug/bin/msf3/modules/payloads/singles/cmd/windows/reverse_ruby.rb=1280776506
@@ -1063,7 +1064,7 @@
 /home/doug/bin/msf3/modules/exploits/windows/browser/ms08_041_snapshotviewer.rb=1289927439
 /home/doug/bin/msf3/modules/auxiliary/dos/samba/lsa_transnames_heap.rb=1274169719
 /home/doug/bin/msf3/modules/exploits/windows/browser/ms08_070_visual_studio_msmask.rb=1289927439
-/home/doug/bin/msf3/modules/exploits/windows/scada/realwin_scpc_initialize.rb=1289927453
+/home/doug/bin/msf3/modules/exploits/windows/scada/realwin_scpc_initialize.rb=1290152663
 /home/doug/bin/msf3/modules/auxiliary/scanner/http/wmap_files_dir.rb=1274169719
 /home/doug/bin/msf3/modules/auxiliary/admin/tikiwiki/tikidblib.rb=1280775610
 /home/doug/bin/msf3/modules/auxiliary/dos/windows/smb/ms09_050_smb2_session_logoff.rb=1289927436
@@ -4213,6 +4214,7 @@ windows/http/trackercam_phparg_overflow=1
 windows/browser/baofeng_storm_onbeforevideodownload=1
 windows/browser/xmplay_asx=1
 windows/brightstor/lgserver_rxrlogin=1
+windows/scada/realwin_10=1
 solaris/dtspcd/heap_noir=1
 unix/webapp/coppermine_piceditor=1
 windows/fileformat/altap_salamander_pdb=1
@@ -7334,6 +7336,11 @@ Type=exploit
 [exploit/windows/scada/realwin]
 FilePaths=/home/doug/bin/msf3/modules
 FileNames=/home/doug/bin/msf3/modules/exploits/windows/scada/realwin.rb
+Type=exploit
+
+[exploit/windows/scada/realwin_10]
+FilePaths=/home/doug/bin/msf3/modules
+FileNames=/home/doug/bin/msf3/modules/exploits/windows/scada/realwin_10.rb
 Type=exploit
 
 [exploit/windows/scada/realwin_scpc_initialize]
